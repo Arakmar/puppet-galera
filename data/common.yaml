@@ -17,7 +17,6 @@ galera::default_options:
     binlog_format: 'ROW'
     default_storage_engine: 'InnoDB'
     innodb_autoinc_lock_mode: 2
-    innodb_locks_unsafe_for_binlog: 1
     port: "<%= $mysql_port %>"
     query_cache_size: 0
     query_cache_type: 0
